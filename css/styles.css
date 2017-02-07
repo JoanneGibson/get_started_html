@@ -5,12 +5,6 @@
   font-weight: normal;
   font-style: normal;
 }
-nav {
-  color: blue;
-  border: 1px;
-  border-style: solid;
-  background-color: yellow;
-}
 /* =======================================================
 *
 * 	Template Style 
@@ -34,7 +28,12 @@ body {
     line-height: 1.5;
   }
 }
-
+nav {
+  color: blue;
+  border: 1px;
+  border-style: solid;
+  background-color: yellow;
+}
 a {
   color: #52d3aa;
   -webkit-transition: 0.5s;
