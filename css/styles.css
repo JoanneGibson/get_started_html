@@ -16,7 +16,7 @@ body {
   font-weight: 300;
   font-size: 20px;
   line-height: 1.7;
-  color: #777777;
+  color: mediumblue;
   color: #7f7f7f;
   background: #fff;
   height: 100%;
@@ -33,6 +33,40 @@ nav {
   border: 1px;
   border-style: solid;
   background-color: AliceBlue;
+}
+article {
+  border: 1px;
+  border-style: solid;
+  border-color: blue;
+  padding: 10pt;
+  margin: 10pt;
+}
+
+article header {
+  font-style: italic;
+}
+
+article p {
+  margin-left: 20pt;
+}
+aside {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  margin-top: 20pt;
+  margin-left: 20pt;
+}
+
+aside h2 {
+  font-size: 16pt;
+}
+footer {
+  border-top: 1pt solid;
+}
+
+footer p {
+  font-size: 12pt;
+  text-align: right;
 }
 a {
   color: #52d3aa;
